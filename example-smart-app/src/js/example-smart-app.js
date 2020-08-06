@@ -45,6 +45,7 @@
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
           p.gender = gender;
+          p.alldata = gender;
           p.fname = fname;
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
@@ -77,6 +78,7 @@
       fname: {value: ''},
       lname: {value: ''},
       gender: {value: ''},
+      alldata: {value: ''},
       birthdate: {value: ''},
       height: {value: ''},
       systolicbp: {value: ''},
